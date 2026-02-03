@@ -47,6 +47,15 @@ function terminarJuego() {
   document.getElementById("resultado").innerText = "";
   document.getElementById("puntaje").innerText = `Puntaje: ${puntaje}/${total}`;
 }
+//===== Reiniciar juego =====
+function reiniciar() {
+    indice = 0;
+    puntaje = 0;
+    document.getElementById("resultado").innerText = "";
+    document.getElementById("respuesta").value = "";
+    mostrarPregunta();
+}
+window.reiniciar = reiniciar;
 
 // ===== Lógica =====
 function verificar() {
