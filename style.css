@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 90%;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #22c55e;
+    color: black;
+    cursor: pointer;
+}
